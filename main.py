@@ -211,5 +211,5 @@ if __name__ == "__main__":
     checkin_thread = threading.Thread(target=main_checkin)
     
     # Memulai kedua thread
-    earning_thread.start()
+    earning_thread.start() 
     checkin_thread.start()
